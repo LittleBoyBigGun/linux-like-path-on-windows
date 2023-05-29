@@ -1,14 +1,3 @@
-# LIST OF ALL SCRIPTS
-
-| FileName    | Description                |
-| ----------- | -------------------------- |
-| `vc.bat`    | 视频压缩                   |
-| `v2mp3.bat` | 视频转 mp3                 |
-| typst.bat   | typst wrapper              |
-| connnect    | 安卓 wifi 调试的配对和连接 |
-
-
-
 # 架构
 
 安装软件后，如果想在命令行中运行，必须在`path` 添加该软件的路径，有些安装程序替用户做了这个工作。这种方式有个非常严重的问题， path 无法备份，导致一旦 path 被误删，需要手动逐条恢复，同时也不利于分享。
@@ -20,8 +9,6 @@ INIT_HOME
 	- bin
 	- scripts
 ```
-
-只需要把 bin, scripts 添加到 path 中即可。
 
 
 
@@ -81,5 +68,10 @@ SET dp0=%~dp0
 EXIT /b
 ```
 
+经测试，这种包装有个大问题，如果用在 bat 脚本中则会出现传参问题
 
 
+
+# 使用
+
+只需要把 bin, scripts 添加到环境变量 path 中即可。

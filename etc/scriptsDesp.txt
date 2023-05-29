@@ -1,0 +1,10 @@
+|ddms                |wrapper of android sdk tool ddms                            |android             |
+|showasdkp           |open android sdk path                                       |android             |
+|v2mp3               |video to mp3 based on ffmpeg                                |media               |
+|vc                  |video compresser based on ffmpeg                            |media               |
+|init                |introduce self-defined variable to os temporary             |system              |
+|list                |manage all scripts                                          |system              |
+|showhome            |show home in windows explorer                               |system              |
+|adbwifi             |adb pair or connect                                         |tool                |
+|mp                  |change to project home and open it with vscode              |tool                |
+|typst               |a wrapper of typst                                          |tool                |

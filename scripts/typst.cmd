@@ -1,3 +1,6 @@
+@rem :filename: typst   
+@rem :description:  a wrapper of typst
+@rem :category:    tool
 @ECHO off
 SETLOCAL
 CALL :find_dp0

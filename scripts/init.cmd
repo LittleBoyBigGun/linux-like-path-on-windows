@@ -1,3 +1,6 @@
+rem :filename:init
+rem :description: introduce self-defined variable to os temporary
+rem :category:system
 @echo off
 rem 使用前 init
 rem 添加一条 path 
